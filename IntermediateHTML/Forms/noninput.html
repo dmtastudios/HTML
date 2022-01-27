@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <!-- Select elements -->
+        <!-- Select opening and closing tags. Must create options inside of those tags -->
+        <label for="">Favorite Fast Food</label>
+        <select type="fastFood" id="fastFood">
+            <!-- the hidden attribute/keyword will make the option no longer display after the user clicks the select element (AKA dropdown menu) -->
+            <option hidden>Select a Restaurant</option>
+            <option value="inNOut">In N Out</option>
+            <option value="cookout">Cookout</option>
+            <option value="fiveGuys">Five Guys</option>
+            <option value="burgerKing">Burger King</option>
+        </select>
+        <br>
+
+            <label for="joke">Tell me a joke:</label>
+            <br>
+            <textarea name="joke" id="joke" cols="10" rows="10"
+            placeholder="Knock Knock">What do you call an alligator that is wearing a vest?</textarea>
+            <br>
+            <button>Click Here to Submit Form</button>
+        </form>
+        <form>
+            <fieldset>
+                <legend>
+                    Favorite Desserts                </legend>
+                <label for="cold">Cold</label>
+                <select name="cold" id="cold">
+                    <option value="favoriteDesserts" hidden>Favorites</option>
+                    <option value="cheeseCake">Cheese Cake</option>
+                    <option value="friedIceCream">Fried Ice Cream</option>
+                    <option value="cremeBrulee">Creme Brulee</option>
+                    <option value="bakedAlaska">Baked Alaska</option>
+                    <option value="bananasFoster">Banana's Foster</option>
+                    </select>    
+            </fieldset>
+        </form>
+    </body>
+</html>
