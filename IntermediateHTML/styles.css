@@ -1,0 +1,27 @@
+body
+{
+    background-color: rgb(3, 7, 39);
+    color: white;
+}
+
+p
+{
+    font-family: fantasy;
+    font-size: 22pt;
+    columns: 3;
+    color: yellow;
+    word-spacing: 2pt;
+}   
+
+
+h4
+{
+    font-family: cursive;
+    font-size: 16pt;
+}
+
+button
+{
+    color: white;
+background-color: lightslategray;}
+
