@@ -2,6 +2,7 @@ body
 {
     background-color: rgb(3, 7, 39);
     color: white;
+    
 }
 
 p
@@ -13,7 +14,6 @@ p
     word-spacing: 2pt;
 }   
 
-
 h4
 {
     font-family: cursive;
@@ -23,5 +23,15 @@ h4
 button
 {
     color: white;
-background-color: lightslategray;}
+background-color: lightslategray;
+font-family: fantasy;
+font-size: 18pt;
 
+} 
+
+header
+{
+    font-size: 48pt;
+    font-family: fantasy;
+    font-weight: bolder;   
+}
