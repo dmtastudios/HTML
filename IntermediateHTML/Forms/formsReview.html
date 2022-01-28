@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Review</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<form>
+    <div>
+        <input type="text" id="fullName"
+        placeholder="Enter Name"
+        name="fullName" required>
+
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="password"
+        name="password">
+    </div>
+
+    <div>
+        <input type="checkbox" name="hotdog"
+        id="hotdog">
+        <label for="hotdog">Check if you understand that hotdogs are not food, yet you insist upon eating them because they're so darn tasty.</label>
+    
+    </div>
+    
+    <fieldset>
+        <div>
+        <legend>Best Movie Series</legend></div>
+    <div>
+        <input type="radio" name="movies"
+        id="bttf" checked>
+        <label for="bttf">Back to the Future</label>
+    </div>
+    <div>
+        <input type="radio" name="movies">
+        <label for="harryPotter">Harry Potter</label>
+    </div>
+    <div>
+        <input type="radio" name="movies">
+        <label for="starWars">Star Wars</label>
+    </div>
+    <div>
+        <input type="radio" name="movies">
+        <label for="marvel">Marvel</label>
+    </div>
+    <div>
+        <input type="radio" name="movies">
+        <label for="lotr">Lord of the Rings</label>
+    </div>
+</fieldset>
+
+    <div>
+        <h3><label for="java">Cups of Coffee for the Day</label></h3>
+        <input type="number" id="java" 
+        name="Java" step="2">
+        <br>
+    </div>
+    <br>
+    <div>
+        <label for="css">First Day of CSS</label>
+        <input type="date" id="css">
+    </div>
+    <div>
+    <br>
+    <h4>    <label for="tsd">Top Secret Document</label>
+    </h4>
+    <input type="file" id="tsd" name="tsd">
+    </div>
+    <div>
+    </div>
+
+</form>
+
+<form>
+<fieldset>
+    <div>
+        <label for="submit">Favorite Color</label>
+        <select name="favColor" 
+        id="favColor"> 
+            <option value="">Red</option>
+            <option value="">Green</option>
+            <option value="">Blue</option>
+        </select>
+    </div>
+<div>    <label for="question">Ask a question</label>    
+</div>    <textarea name="question" id="question" cols="30" rows="10"></textarea>
+    <br>
+<div>    <button>Don't push the button!!!</button>
+</div>
+</fieldset>
+    </form>
+
+</body>
+</html> 
